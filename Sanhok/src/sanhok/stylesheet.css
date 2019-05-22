@@ -1,0 +1,70 @@
+.parent
+{
+    -fx-background-color: white;
+}
+.sidebar
+{
+    -fx-background-color: #6747cd;
+}
+.forgetBtn
+{
+  
+}
+.forgetBtn:hover
+{
+    -fx-text-fill: #6747cd;
+    -fx-underline:true;
+   
+}
+.loginBtn
+{
+    -fx-background-color: #6747cd;
+    -fx-text-fill: #FFF;
+     -fx-background-radius: 5px;
+}
+.loginBtn:hover
+{
+    -fx-background-color: transparent;
+    -fx-text-fill:#6747cd;
+    
+    -fx-background-radius: 5px;
+    -fx-border-color: #6747cd;
+    -fx-border-size:2px;
+    -fx-border-style: solid;
+    -fx-border-radius: 5px;
+}
+.bookingbutton
+{-fx-background-color: transparent;
+    -fx-text-fill:#6747cd;
+    
+    -fx-background-radius: 5px;
+    -fx-border-color: #6747cd;
+    -fx-border-size:2px;
+    -fx-border-style: solid;
+    -fx-border-radius: 5px;
+}
+.bookingbutton:hover
+{    -fx-background-color: transparent;
+    -fx-text-fill:#6747cd;
+    
+    -fx-background-radius: 5px;
+    -fx-border-color: #6747cd;
+    -fx-border-size:2px;
+    -fx-border-style: solid;
+    -fx-border-radius: 5px;
+}
+.backbutton
+{
+    -fx-background-image: url("back.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 30;
+}
+.closebutton
+{
+    -fx-background-image: url("cancel.png");
+    -fx-background-position: center;
+   -fx-background-repeat: no-repeat;
+    -fx-background-size: 30;
+    
+}

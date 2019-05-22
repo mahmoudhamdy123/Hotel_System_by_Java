@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sanhok.RegesritionController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #8000ff;">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="133.0" layoutY="212.0">
+               <image>
+                  <Image url="@hotel-letter-h-sign-inside-a-black-rounded-square.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="157.0" layoutY="323.0" text="Sanhok" textFill="#f8f4f4">
+               <font>
+                  <Font name="Kristen ITC" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="400.0" prefHeight="600.0" prefWidth="400.0" styleClass="parent" stylesheets="@stylesheet.css">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="24.0" layoutY="49.0">
+               <image>
+                  <Image url="@hotel-letter-h-sign-inside-a-black-rounded-square.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="24.0" layoutY="99.0" text="Sanhok" textFill="#241f1f">
+               <font>
+                  <Font name="Kristen ITC" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="122.0" text="fill Form for Registrition" textFill="#a3a3a3">
+               <font>
+                  <Font name="Ebrima Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="text2" layoutX="34.0" layoutY="226.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="300.0" promptText="Second Name" />
+            <TextField fx:id="text3" layoutX="34.0" layoutY="268.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="300.0" promptText="Email" />
+            <TextField fx:id="text1" layoutX="34.0" layoutY="187.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="300.0" promptText="First Name" />
+            <PasswordField fx:id="text4" layoutX="34.0" layoutY="325.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="300.0" promptText="Password" />
+            <PasswordField fx:id="text5" layoutX="34.0" layoutY="365.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="300.0" promptText="Enter Password Again" />
+            <Button layoutX="34.0" layoutY="429.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#setData" prefHeight="30.0" prefWidth="300.0" styleClass="loginBtn" text="Registrion" textFill="#942727" />
+            <Button id="backbutton" layoutX="3.0" layoutY="7.0" mnemonicParsing="false" onAction="#Login" prefHeight="30.0" prefWidth="41.0" style="-fx-background-color: white;" styleClass="backbutton" textFill="#b2a6a6">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fitHeight="612.0" fitWidth="406.0" layoutX="-5.0" layoutY="-5.0" opacity="0.29">
+         <image>
+            <Image url="@ff.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

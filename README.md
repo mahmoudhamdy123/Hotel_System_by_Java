@@ -1,1 +1,0 @@
-echo "# Hotel-System-by-Java"
